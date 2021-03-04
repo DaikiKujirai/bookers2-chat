@@ -8,6 +8,7 @@ class UserMailer < ApplicationMailer
   def new_registration_email(user)
     @user = user
     mail to: @user.email
+    # この２行は必要
   end
 
 end

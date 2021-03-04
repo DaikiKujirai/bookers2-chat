@@ -38,8 +38,8 @@ Rails.application.configure do
   :address => 'smtp.gmail.com',
   :port => 587,
   :domain => 'example.com',
-  :user_name => 'kuuuuuuujira@gmail.com',
-  :password => 'cofcjpdasoaiuppt',
+  :user_name => 'kuuuuuuujira@gmail.com', #自分のメールアドレス
+  :password => 'cofcjpdasoaiuppt', #Googleアカウントの二段階認証を有効にして作られたパスワード
   :authentication => :plain,
   :enable_starttls_auto => true
 }

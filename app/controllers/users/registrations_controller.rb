@@ -10,10 +10,12 @@ class Users::RegistrationsController < Devise::RegistrationsController
   # end
 
   # POST /resource
+  # rails g controller devise userで作ったと思う
   def create
     super
   end
-
+  # コメントアウトを外す。（オーバーライドする）
+  # superだけでメールは送信される。
   # GET /resource/edit
   # def edit
   #   super
